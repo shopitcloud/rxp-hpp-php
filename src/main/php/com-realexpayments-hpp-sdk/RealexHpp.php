@@ -78,7 +78,7 @@ class RealexHpp
      *
      * @param HppRequest $hppRequest
      * @param bool $encoded <code>true</code> if the JSON values will be encoded.
-     * @return HppRequest
+     * @return string
      */
     public function requestToJson(HppRequest $hppRequest, $encoded = true)
     {
